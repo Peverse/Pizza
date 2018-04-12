@@ -14,6 +14,11 @@ namespace PizzaFactory
             {
                 return new ChicagoStyleCheesePizza();
             }
+
+            else if (item == "pepperoni")
+            {
+                return new ChicagoStylePepperoniPizza();
+            }
             else return null;
         }
     }

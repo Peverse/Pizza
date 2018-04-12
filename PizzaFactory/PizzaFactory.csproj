@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChicagoStyleCheesePizza.cs" />
+    <Compile Include="ChicagoStylePepperoniPizza.cs" />
     <Compile Include="ChicagoStylePizzaStore.cs" />
     <Compile Include="NYStyleCheesePizza.cs" />
     <Compile Include="NYStylePizzaStore.cs" />

@@ -16,10 +16,11 @@ namespace PizzaFactory
             Pizza pizza = nyStore.orderPizza("cheese");
             Console.WriteLine("Ruud ordered a " + pizza.getName() + "\n");
 
-            pizza = chicagoStore.orderPizza("cheese");
+            pizza = chicagoStore.orderPizza("pepperoni");
             Console.WriteLine("Jordy ordered a " + pizza.getName() + "\n");
 
             Console.Read();
+
         }
     }
 }
